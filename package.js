@@ -7,7 +7,7 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('1.0');
-  // Phaser & Pixi export to window, so we just send it as bare, it's unneccessary to export it
-  api.addFiles('phaser/build/phaser.js', 'client',  {bare: true});
+  api.addFiles('phaser/build/phaser.js', 'client');
+  api.export(['Pixi', 'Phaser'], 'client');
 });
 
