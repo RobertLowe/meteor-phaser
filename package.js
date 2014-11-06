@@ -8,7 +8,5 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('1.0');
   api.addFiles('phaser/build/phaser.js', 'client', {bare: true});
-  api.export('PIXI', 'client');
-  api.export('Phaser', 'client');
 });
 
