@@ -1,7 +1,7 @@
 Package.describe({
   name: 'robertlowe:meteor-phaser',
   summary: 'Phaser.io packaged for meteor',
-  version: '2.1.3',
+  version: '2.2.1',
   git: 'https://github.com/robertlowe/meteor-phaser.git'
 });
 
